@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Array Cardio 💪💪</title>
+  <title>Working with Arrays</title>
 </head>
 <body>
-  <p><em>Psst: have a look at the JavaScript Console</em> 💁</p>
+  <p><em>Look at the JavaScript Console</em> </p>
   <script>
     // ## Array Cardio Day 2
 
@@ -26,6 +26,7 @@
 
     // Some and Every Checks
     // Array.prototype.some() // is at least one person 19 or older?
+    console.log(people.some((person => ((new Date()).getFullYear()) - person.year >= 19)))
     // Array.prototype.every() // is everyone 19 or older?
 
     // Array.prototype.find()
